@@ -38,7 +38,7 @@
 <body>
 <div class="container">
     <div class="content">
-        <div class="title">MVC project</div>
+        <div class="title">Index</div>
     </div>
 </div>
 </body>
