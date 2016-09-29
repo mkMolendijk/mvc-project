@@ -19,4 +19,5 @@
 //    return view('index.index');
 //});
 
+//Route to controller that handles the index page
 Route::get('/', 'IndexController@index');

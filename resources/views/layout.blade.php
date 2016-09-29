@@ -3,11 +3,12 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>MVC Project</title>
 
     @yield('head')
 
-    <title>MVC Project</title>
-
+    <link href="https://fonts.googleapis.com/css?family=Lato:100" rel="stylesheet" type="text/css">
+    <link href="{{ URL::asset('assets/css/styles.css') }}" rel="stylesheet" type="text/css">
 </head>
 <body>
 
