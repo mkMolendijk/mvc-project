@@ -20,6 +20,10 @@
 //});
 
 //Route to controller that handles the index page
-Route::get('/', 'IndexController@index');
+//Route::get('/', 'IndexController@index');
 
-Route::get('cards', 'CardsController@index');
+//Route::get('cards', 'CardsController@index');
+
+Route::auth();
+
+Route::get('/', 'HomeController@index');
