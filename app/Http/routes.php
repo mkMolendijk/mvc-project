@@ -21,3 +21,5 @@
 
 //Route to controller that handles the index page
 Route::get('/', 'IndexController@index');
+
+Route::get('cards', 'CardsController@index');
