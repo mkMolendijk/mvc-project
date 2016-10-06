@@ -3,6 +3,7 @@
 /public/storage
 /public/build/
 bootstrap/cache/
+/config
 /database
 Homestead.yaml
 Homestead.json
